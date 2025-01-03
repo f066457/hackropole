@@ -1,0 +1,18 @@
+1. Simplement avec la commande `cat`
+
+```bash
+cat aaarg.txt
+
+Cela donne :
+
+ELF>P@@1\@8@@@@@hh@@@@@@  @ @.>@>@8H.>@>@@@DDPtd(!(!@(!@DDQtdRtd.>@>@/lib64/ld-linux-x86-64.so.2GNUGNU|\$,Ř{w0v\*Ii       1?@?@8@@@@ @@H/Ht5/%/@%/h%/h1I^HHPTI��@H @Hǐ@v/Df.D8@@H=8@@tHt        8@@fff.@8@@H8@@HHH?HHtHt8@@ff.@=9/uUH\~'/]Dff.@f.@S1f. @H5.HHrH5.
+[f.@|~~SHHHt\$
+HHT~~~~:uMHc~~~~ӸH9u>1f @H5J.=HHrH51.
+1H[AWIAVIAUAATL%+UH-+SL)HtLLDAHH9u[]A\A]A^A\_F‍C‍S‍C‍{‍f‍9‍a‍3‍8‍a‍d‍a‍c‍e‍9‍d‍d‍a‍3‍a‍9‍a‍e‍5‍3‍e‍7‍a‍e‍c‍1‍8‍0‍c‍5‍a‍7‍3‍d‍b‍b‍7‍c‍3‍6‍4‍f‍e‍1‍3‍7‍f‍c‍6‍7‍2‍1‍d‍7‍9‍9‍7‍c‍5‍4‍e‍8‍d‍}D(~~~~`XXPzRxRxP0FJ@>>@@o8@@`~~~~@KD xAD]BEE E(H0H8G@j8A0A(B BBB0@@@
+L@@0@hH        oH@oo<@>@6@F@GCC: (Debian 8.3.0-6) 8.3.0clang version 7.0.1-8+deb10u2 (tags/RELEASE_701/final).shstrtab.interp.note.ABI-tag.note.gnu.build-id.gnu.hash.dynsym.dynstr.gnu.version.gnu.version_r.rela.dyn.rela.plt.init.text.fini.rodata.eh_frame_hdr.eh_frame.init_array.fini_array.dynamic.got.got.plt.data.bss.comment@@ !@\$8,4o8@8\$>~~~~`@`~~~~F@LNo<@<[oH@H jh@hHtB@0~~@y @ 0P@P1@   @ &(!@(!Dp!@p! >@.?@@@(@@(8@@80080S0\
+\
+
+Et on voit clairement le hash au milieu du fichier :
+
+F‍C‍S‍C‍{‍f‍9‍a‍3‍8‍a‍d‍a‍c‍e‍9‍d‍d‍a‍3‍a‍9‍a‍e‍5‍3‍e‍7‍a‍e‍c‍1‍8‍0‍c‍5‍a‍7‍3‍d‍b‍b‍7‍c‍3‍6‍4‍f‍e‍1‍3‍7‍f‍c‍6‍7‍2‍1‍d‍7‍9‍9‍7‍c‍5‍4‍e‍8‍d‍}
+
